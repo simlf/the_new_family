@@ -8,6 +8,5 @@ Rails.application.routes.draw do
 
   resource :family, only: [:show]
     resources :tasks
-
   end
-end
+
