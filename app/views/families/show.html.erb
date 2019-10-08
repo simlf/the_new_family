@@ -1,6 +1,7 @@
 <h3>Families#show</h3>
 <h2><%= @family_name %></h2>
 <% @family.each do |member| %>
+
   <h4><%= member.name.capitalize %></h4>
 <% end %>
 
